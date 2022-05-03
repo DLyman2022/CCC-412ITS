@@ -1,0 +1,75 @@
+/usr/lib/python3/dist-packages/wfuzz/__init__.py:34: UserWarning:Pycurl is not compiled against Openssl. Wfuzz might not work correctly when fuzzing SSL sites. Check Wfuzz's documentation for more information.
+********************************************************
+* Wfuzz 3.1.0 - The Web Fuzzer                         *
+********************************************************
+
+Target: http://testphp.vulnweb.com/FUZZ
+Total requests: 3295
+
+=====================================================================
+ID           Response   Lines    Word       Chars       Payload                    
+=====================================================================
+
+000000008:   200        109 L    388 W      4958 Ch     "%2f/"                     
+000000005:   200        109 L    388 W      4958 Ch     "%2e/"                     
+000000100:   200        109 L    388 W      4958 Ch     "./"                       
+000000150:   200        0 L      0 W        1 Ch        "CVS/Entries"              
+000000562:   200        7 L      16 W       262 Ch      "admin/"                   
+000002137:   200        8 L      21 W       377 Ch      "images/?pattern=/etc/*&sor
+                                                        t=name"                    
+000002136:   200        8 L      21 W       377 Ch      "images/"                  
+000002220:   200        109 L    388 W      4958 Ch     "index.php?file=Liens&op=\"
+000002229:   200        109 L    388 W      4958 Ch     "index.php?vo="            
+000002230:   200        109 L    388 W      4958 Ch     "index.php?|=../../../../..
+                                                        /../../../../etc/passwd"   
+000002228:   200        109 L    388 W      4958 Ch     "index.php?tampon=test%20" 
+000002227:   200        109 L    388 W      4958 Ch     "index.php?sql_debug=1"    
+000002226:   200        109 L    388 W      4958 Ch     "index.php?pymembs=admin"  
+000002225:   200        109 L    388 W      4958 Ch     "index.php?page=../../../..
+                                                        /../../../../../../etc/pass
+                                                        wd"                        
+000002223:   200        109 L    388 W      4958 Ch     "index.php?module=My_eGalle
+                                                        ry"                        
+000002224:   200        109 L    388 W      4958 Ch     "index.php?page=../../../..
+                                                        /../../../../../../boot.ini
+                                                        "                          
+000002219:   200        109 L    388 W      4958 Ch     "index.php?download=/winnt/
+                                                        win.ini"                   
+000002222:   200        109 L    388 W      4958 Ch     "index.php?l=forum/view.php
+                                                        &topic=../../../../../../..
+                                                        /../../etc/passwd"         
+000002221:   200        109 L    388 W      4958 Ch     "index.php?file=index.php" 
+000002217:   200        109 L    388 W      4958 Ch     "index.php?download=/etc/pa
+                                                        sswd"                      
+000002218:   200        109 L    388 W      4958 Ch     "index.php?download=/window
+                                                        s/win.ini"                 
+000002215:   200        109 L    388 W      4958 Ch     "index.php?base=test%20"   
+000002216:   200        109 L    388 W      4958 Ch     "index.php?chemin=..%2F..%2
+                                                        F..%2F..%2F..%2F..%2F..%2F%
+                                                        2Fetc"                     
+000002214:   200        109 L    388 W      4958 Ch     "index.php?action=search&se
+                                                        archFor=\"                 
+000002213:   200        109 L    388 W      4958 Ch     "index.php?SqlQuery=test%20
+                                                        "                          
+000002212:   200        109 L    388 W      4958 Ch     "index.php?IDAdmin=test"   
+000002323:   200        119 L    432 W      5523 Ch     "login.php?sess=your_sessio
+                                                        n_id&abt=&new_lang=99999&ca
+                                                        ller=navlang"              
+000002973:   200        103 L    364 W      4732 Ch     "search.php?searchfor=\"   
+
+Total time: 0
+Processed Requests: 3284
+Filtered Requests: 3256
+Requests/sec.: 0
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
