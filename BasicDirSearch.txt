@@ -1,0 +1,21 @@
+# Dirsearch started Thu Oct 14 16:36:21 2021 as: dirsearch.py -u 10.0.0.221 -o /home/kali/basic-dirsearch.txt --format plain
+
+403   275B   http://10.0.0.221:80/.htaccess.bak1
+403   275B   http://10.0.0.221:80/.ht_wsr.txt
+403   275B   http://10.0.0.221:80/.htaccessBAK
+403   275B   http://10.0.0.221:80/.htaccess_extra
+403   275B   http://10.0.0.221:80/.htaccessOLD
+403   275B   http://10.0.0.221:80/.htaccess.save
+403   275B   http://10.0.0.221:80/.htaccess_sc
+403   275B   http://10.0.0.221:80/.htaccess.sample
+403   275B   http://10.0.0.221:80/.htm
+403   275B   http://10.0.0.221:80/.htaccessOLD2
+403   275B   http://10.0.0.221:80/.htpasswds
+403   275B   http://10.0.0.221:80/.html
+403   275B   http://10.0.0.221:80/.httr-oauth
+403   275B   http://10.0.0.221:80/.htaccess.orig
+403   275B   http://10.0.0.221:80/.htpasswd_test
+403   275B   http://10.0.0.221:80/.htaccess_orig
+200    11KB  http://10.0.0.221:80/index.html
+403   275B   http://10.0.0.221:80/server-status
+403   275B   http://10.0.0.221:80/server-status/
