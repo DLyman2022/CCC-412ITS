@@ -1,0 +1,31 @@
+└─$ cat /home/kali/yahoo-subdom2.txt
+# FFUF Report
+
+  Command line : `ffuf -c -w /home/kali/Desktop/SecLists/Discovery/DNS/subdomains-top1million-5000.txt -mc 200 -u http://yahoo.com -H HOST: FUZZ.yahoo.com -of md -o /home/kali/yahoo-subdom2.txt`
+  Time: 2021-10-14T02:09:40-04:00
+
+  | FUZZ | URL | Redirectlocation | Position | Status Code | Content Length | Content Words | Content Lines | Content Type | ResultFile |
+  | :- | :-- | :--------------- | :---- | :------- | :---------- | :------------- | :------------ | :--------- | :----------- |
+  | my | http://yahoo.com |  | 78 | 200 | 210112 | 32631 | 1443 | text/html; charset=UTF-8 |  |
+  | de | http://yahoo.com |  | 155 | 200 | 475998 | 26110 | 845 | text/html; charset=UTF-8 |  |
+  | it | http://yahoo.com |  | 114 | 200 | 460577 | 25524 | 845 | text/html; charset=UTF-8 |  |
+  | es | http://yahoo.com |  | 201 | 200 | 456613 | 25592 | 845 | text/html; charset=UTF-8 |  |
+  | fr | http://yahoo.com |  | 210 | 200 | 513353 | 30452 | 980 | text/html; charset=UTF-8 |  |
+  | ca | http://yahoo.com |  | 285 | 200 | 448202 | 26073 | 935 | text/html; charset=UTF-8 |  |
+  | us | http://yahoo.com |  | 242 | 200 | 681847 | 35935 | 1157 | text/html; charset=UTF-8 |  |
+  | uk | http://yahoo.com |  | 357 | 200 | 526857 | 31049 | 992 | text/html; charset=UTF-8 |  |
+  | id | http://yahoo.com |  | 627 | 200 | 305021 | 23605 | 854 | text/html; charset=UTF-8 |  |
+  | tw | http://yahoo.com |  | 641 | 200 | 244007 | 16744 | 707 | text/html; charset=UTF-8 |  |
+  | se | http://yahoo.com |  | 803 | 200 | 391802 | 22017 | 803 | text/html; charset=UTF-8 |  |
+  | au | http://yahoo.com |  | 808 | 200 | 468749 | 28102 | 1015 | text/html; charset=UTF-8 |  |
+  | br | http://yahoo.com |  | 746 | 200 | 464789 | 27715 | 974 | text/html; charset=UTF-8 |  |
+  | sg | http://yahoo.com |  | 775 | 200 | 511733 | 30307 | 982 | text/html; charset=UTF-8 |  |
+  | hk | http://yahoo.com |  | 1001 | 200 | 266162 | 16305 | 662 | text/html; charset=UTF-8 |  |
+  | ro | http://yahoo.com |  | 1285 | 200 | 398285 | 23204 | 822 | text/html; charset=UTF-8 |  |
+  | ph | http://yahoo.com |  | 1489 | 200 | 480557 | 26405 | 831 | text/html; charset=UTF-8 |  |
+  | be | http://yahoo.com |  | 2108 | 200 | 394218 | 22759 | 819 | text/html; charset=UTF-8 |  |
+  | vn | http://yahoo.com |  | 2189 | 200 | 405279 | 23694 | 803 | text/html; charset=UTF-8 |  |
+  | ie | http://yahoo.com |  | 2240 | 200 | 398415 | 23213 | 818 | text/html; charset=UTF-8 |  |
+  | gr | http://yahoo.com |  | 2753 | 200 | 408169 | 22834 | 828 | text/html; charset=UTF-8 |  |
+  | nz | http://yahoo.com |  | 3471 | 200 | 417333 | 21557 | 759 | text/html; charset=UTF-8 |  |
+  | za | http://yahoo.com |  | 3764 | 200 | 389686 | 22694 | 818 | text/html; charset=UTF-8 |  |
